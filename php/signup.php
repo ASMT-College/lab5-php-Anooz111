@@ -15,22 +15,22 @@
 <div class="content">
     <form action="" method="POST" onsubmit="return validate()">
         <div class="form-group">
-            Username <input type="text" name="username" id="username">
+            Username <br><input type="text" name="username" id="username">
             <span id="userError" class="error-message"></span>
         </div>
         <br>
         <div class="form-group">
-            Email <input type="text" name="email" id="email">
+            Email <br> <input type="text" name="email" id="email">
             <span id="emailError" class="error-message"></span>
         </div>
         <br>
         <div class="form-group">
-            Password <input type="password" name="password" id="password">
+            Password <br><input type="password" name="password" id="password">
             <span id="passError" class="error-message"></span>
         </div>
         <br>
         <div class="form-group">
-            DOB <input type="date" name="dob" id="dob">
+            DOB <br><input type="date" name="dob" id="dob">
             <span id="dobError" class="error-message"></span>
         </div>
         <br>
